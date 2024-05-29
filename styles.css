@@ -176,4 +176,16 @@ h1 {
 
 }
 
+footer {
+
+    width: 100vw;
+    padding: 2rem 4rem 2rem 4rem;
+    font-size: 1rem;
+}
+
+footer p {
+    margin-left: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
 
