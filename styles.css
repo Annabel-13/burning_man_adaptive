@@ -14,7 +14,6 @@ html {
 
 .main_container {
     width: 100vw;
-    /*rewrite it*/
     height: 100vh;
     background-image: url("images/header-bg.jpg");
     background-size: cover;
@@ -128,3 +127,53 @@ h1 {
     cursor: pointer;
     background-color: rgba(128, 128, 128, 0.5);;
 }
+
+/*description container*/
+
+.description_container {
+    width: 100vw;
+    height: auto;
+    padding: 6rem;
+}
+
+.description_container h2 {
+    font-size: 3.125rem;
+    margin-bottom: 3rem;
+}
+
+.description_container h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.03em; /* Increase letter spacing */
+    margin-bottom: 2rem;
+}
+
+.articles_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*gap: 1rem;*/
+}
+
+.article {
+    align-items: center;
+    width: 85%;
+}
+
+.article p {
+    font-family: 'Open Sans', sans-serif;
+    /*font-weight: 100;*/
+    letter-spacing: 0.03em; /* Increase letter spacing */
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 2rem;
+    height: 40%;
+}
+
+.article img {
+    margin: 0.3rem;
+
+}
+
+
