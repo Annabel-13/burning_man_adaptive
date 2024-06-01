@@ -224,7 +224,7 @@ footer p {
 
 }
 
-@media (max-width: 768px) and (orientation: landscape) {
+@media (max-width: 768px){
 
     .main_container {
         width: 121vw;
@@ -266,6 +266,22 @@ footer p {
     }
 
 }
+
+@media (max-width: 595px){
+
+    .article img {
+        margin: 0;
+    }
+
+    .logo {
+        flex: 0.5;
+    }
+
+    .article img {
+        width: 45%;
+    }
+}
+
 
 
 
