@@ -188,4 +188,44 @@ footer p {
     font-family: 'Open Sans', sans-serif;
 }
 
+@media (min-width: 768px) and (max-width: 970px) and (orientation: landscape){
+    .main_container {
+        width: 121vw;
+
+    }
+
+    header {
+        padding: 2rem 0 0 0;
+        align-items: flex-start;
+    }
+
+    .tel_number {
+        flex: 0.5;
+        text-align: center;
+
+    }
+
+    .logo {
+        flex: 0.5;
+    }
+
+    .description_container {
+        padding: 4rem;
+    }
+
+    .article {
+        width: 100%;
+    }
+
+    .articles_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*.article p {*/
+    /*    margin-bottom: 0;*/
+    /*    height: 34%;*/
+    /*}*/
+}
+
 
