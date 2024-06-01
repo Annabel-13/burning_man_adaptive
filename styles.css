@@ -222,10 +222,50 @@ footer p {
         flex-direction: column;
     }
 
-    /*.article p {*/
-    /*    margin-bottom: 0;*/
-    /*    height: 34%;*/
-    /*}*/
 }
+
+@media (max-width: 768px) and (orientation: landscape) {
+
+    .main_container {
+        width: 121vw;
+
+    }
+
+    header {
+        padding: 2rem 0 0 0;
+        align-items: flex-start;
+    }
+
+    .tel_number {
+        flex: 0.5;
+        text-align: center;
+
+    }
+
+
+    .description_container {
+        padding: 1rem;
+    }
+
+    .article {
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .description_container h2 {
+        margin-left: 10%;
+    }
+
+    .description_container h3 {
+        margin-top: 5%;
+    }
+
+    .articles_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
 
 
